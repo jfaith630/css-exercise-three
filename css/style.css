@@ -38,25 +38,25 @@ nav {
 }
 
 .content {
-  background-color: #BBB;
-  border-bottom: 1px;
-  border-color: black;
   display: inline-block;
-  float: left;
-  width: 90%;
-  padding: 10px 15px;
+  width: 93%;
 }
 
 .arrow{
+  display: inline-block;
+  width: 6%;
+  position: relative;
+  bottom: 10px;
+}
+
+.location {
   background-color: #BBB;
   border-bottom: 1px;
   border-color: black;
-  display: inline-block;
-  float: left;
-  width: 10%;
-  padding: 23px 15px;
+  border-style: solid;
+  padding: 15px 15px;
 }
 
-.location :hover {
+.restaurant-list :hover {
   background-color: #888;
 }
